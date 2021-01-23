@@ -12,5 +12,5 @@ def get_the_values(groceries)
   values = []
   groceries.each_value {|list| values.concat(list)}
   values
-  groceries.values.values
+  groceries.values.concat
 end
