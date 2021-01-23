@@ -9,5 +9,5 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  [].concat(groceries.values)
+  [].concat([], groceries.values)
 end
